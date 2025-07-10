@@ -1,7 +1,7 @@
 def apply_coupon(price, coupon):
     discount={
-        "SALES 10":0.10,
-        "SUPER 20":0.20,
+        "SALES10":0.10,
+        "SUPER20":0.20,
         "WELCOME":0.15
     }
     if coupon in discount:
